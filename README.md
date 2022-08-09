@@ -1,5 +1,5 @@
-# goRecrypt
-`goRecrypt` is a tool to execute proxy re-encryption algorithms. It offers a high-level API to easily implement the process of re-encryption.
+# recrypt
+`recrypt` is a tool to execute proxy re-encryption algorithms. It offers a high-level API to easily implement the process of re-encryption.
 
 # Introduction and Theory
 
@@ -34,7 +34,7 @@
 ## Install
 
 ```sh
-$ go get -v github.com/SherLzp/goRecrypt
+$ go get -v github.com/acuozzo/recrypt
 ```
 
 ## Test
@@ -46,8 +46,8 @@ package main
 
 import (
 	"fmt"
-	"goRecrypt/curve"
-	"goRecrypt/recrypt"
+	"github.com/acuozzo/recrypt/curve"
+	"github.com/acuozzo/recrypt/recrypt"
 )
 
 func main() {

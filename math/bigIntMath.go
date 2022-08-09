@@ -1,7 +1,7 @@
 package math
 
 import (
-	"goRecrypt/curve"
+	"github.com/acuozzo/recrypt/curve"
 	"math/big"
 )
 

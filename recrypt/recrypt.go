@@ -7,9 +7,9 @@ import (
 	"encoding/gob"
 	"encoding/hex"
 	"fmt"
-	"goRecrypt/curve"
-	"goRecrypt/math"
-	"goRecrypt/utils"
+	"github.com/acuozzo/recrypt/curve"
+	"github.com/acuozzo/recrypt/math"
+	"github.com/acuozzo/recrypt/utils"
 	"math/big"
 )
 
